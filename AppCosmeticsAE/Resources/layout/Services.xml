@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageButton
+            android:src="@drawable/HOME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHome" />
+        <TextView
+            android:text="SERVICES"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300px"
+            android:id="@+id/textServices"/>
+
+    <ImageView
+        android:src="@drawable/consulty"
+        android:layout_width="200.5dp"
+        android:layout_height="130.5dp"
+        android:layout_marginTop="100px"
+        android:id="@+id/image1" />
+    <TextView
+        android:text="CONSULTING"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="155.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:id="@+id/txtConsulting" />
+
+    <ImageView
+        android:src="@drawable/capilary"
+        android:layout_width="226.5dp"
+        android:layout_height="133.0dp"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="-310px"
+        android:id="@+id/image2" />
+    <TextView
+        android:text="CAPILLARY TREATMENT"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:id="@+id/txtCapillary" />
+
+    <ImageView
+        android:src="@drawable/easy"
+        android:layout_width="196.5dp"
+        android:layout_height="182.0dp"
+        android:layout_marginTop="-10px"
+        android:layout_marginLeft="50px"
+        android:id="@+id/image3" />
+    <TextView
+        android:text="EASY TREATMENT"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="155.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70px"
+        android:id="@+id/txtEasy" />
+    <ImageView
+        android:src="@drawable/treament"
+        android:layout_width="173.5dp"
+        android:layout_height="149.0dp"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="-360px"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="PRODUCTS"
+        android:textAppearance="?android:attr/textAppearanceMedium"      
+        android:layout_width="155.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:layout_marginTop="0px"
+        android:id="@+id/txtProducts" />
+
+    <Button
+        android:text="HOME PAGE"
+        android:layout_width="267.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:id="@+id/btnIndex"/>
+
+</LinearLayout>

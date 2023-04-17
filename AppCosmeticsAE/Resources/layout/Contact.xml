@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageButton
+        android:src="@drawable/HOME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHome"/>
+
+    <TextView
+        android:text="CONTACT"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280px"
+        android:id="@+id/txtContact"/>
+
+    <EditText
+        android:hint="Id"
+        android:layout_width="255.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="50px"
+        android:id="@+id/txtId"/>
+
+    <EditText
+        android:hint="Name"
+        android:layout_width="255.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="50px"
+        android:id="@+id/txtName"/>
+
+    <EditText
+        android:hint="LastName"
+        android:layout_width="255.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="50px"
+        android:id="@+id/txtLastName"/>
+
+    <EditText
+        android:inputType="number"
+        android:hint="Mobil Number"
+        android:layout_width="255.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="50px"
+        android:id="@+id/txtNumber"/>
+
+    <EditText
+        android:hint="Email"
+        android:layout_width="255.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="50px"
+        android:id="@+id/txtEmail"/>
+
+
+    <EditText
+        android:hint="What do you need help with?"
+        android:layout_width="255.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="50px"
+        android:id="@+id/txtNeed"/>
+
+
+    <Button
+        android:text="INSERT"
+        android:layout_width="267.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:id="@+id/btnInsertarRegistro"/>
+
+    <Button
+        android:text="SEARCH"
+        android:layout_width="267.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:id="@+id/btnConsultarRegistro"/>
+
+    <Button
+        android:text="DELETE"
+        android:layout_width="267.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:id="@+id/btnEliminarRegistro"/>
+
+    <Button
+        android:text="UPDATE"
+        android:layout_width="267.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:id="@+id/btnActualizarRegistro"/>
+</LinearLayout>
